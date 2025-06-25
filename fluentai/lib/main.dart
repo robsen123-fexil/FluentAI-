@@ -1,7 +1,9 @@
 import 'package:fluentai/pages/authpage/login.dart';
 import 'package:fluentai/pages/authpage/register.dart';
-import 'package:fluentai/pages/onboarding/frst.dart';
+import 'package:fluentai/pages/onboarding/PersonalizedPlanScreen.dart';
+import 'package:fluentai/pages/onboarding/onboardingscreen.dart';
 import 'package:fluentai/pages/onboarding/onboarding.dart';
+import 'package:fluentai/pages/screen/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: OnboardingScreen()
+      home: Homepage()
     );
   }
 }
